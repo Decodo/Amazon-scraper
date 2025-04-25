@@ -1,6 +1,6 @@
 async function fetchAmazonData() {
     try {
-        const response = await fetch("https://scraper-api.smartproxy.com/v2/scrape", {
+        const response = await fetch("https://scraper-api.decodo.com/v2/scrape", {
             method: "POST",
             body: JSON.stringify({
                 "target": "amazon",
