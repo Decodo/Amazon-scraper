@@ -1,9 +1,9 @@
-# Amazon Scraper
 <p align="center">
-    <a href="https://dashboard.smartproxy.com/register?page=ecommerce-scraping-api%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_ecommerce_scraper" ><img src="https://i.imgur.com/v707ui6.png"></a>
+<a href="https://dashboard.decodo.com/?page=residential-proxies&utm_source=socialorganic&utm_medium=social&utm_campaign=resi_trial_GITHUB"><img src="https://github.com/user-attachments/assets/60bb48bd-8dcc-48b2-82c9-a218e1e4449c"></a>
 </p>
 
-[![](https://dcbadge.vercel.app/api/server/gvJhWJPaB4)](https://discord.gg/sCr34yVDVB)
+
+[![](https://dcbadge.vercel.app/api/server/Ja8dqKgvbZ)](https://discord.gg/Ja8dqKgvbZ)
 
 ## List of contents
 - [Introduction](#introduction)
@@ -26,7 +26,7 @@
 ## Introduction
 Amazon is a treasure trove of eCommerce information due to its vast database of products, prices, reviews, and sales data. The platform offers valuable insights into the market and competitor strategies, making it an incredibly useful target to extract information from for those seeking to thrive in the digital marketplace.
 
-Smartproxy offers an easy way to gather data from Amazon with the [eCommerce Scraping API](https://smartproxy.com/scraping/ecommerce). It targets various product areas, such as product listings, prices, reviews, and search results, then returns the information in an easy-to-read JSON format.
+Decodo offers an easy way to gather data from Amazon with the [eCommerce Scraping API](https://decodo.com/scraping/ecommerce). It targets various product areas, such as product listings, prices, reviews, and search results, then returns the information in an easy-to-read JSON format.
 
 ## Features
  - Ready-made targets to efficiently scrape the most popular Amazon pages
@@ -36,7 +36,7 @@ Smartproxy offers an easy way to gather data from Amazon with the [eCommerce Scr
  - User-friendly web interface with scheduling options
 
 ## Getting started
-To begin using the eCommerce Scraping API, grab a plan that suits your needs from the [dashboard](https://dashboard.smartproxy.com/ecommerce-scraping-api/). From here, you have two options:
+To begin using the eCommerce Scraping API, grab a plan that suits your needs from the [dashboard](https://dashboard.decodo.com/ecommerce-scraping-api/). From here, you have two options:
 - **Scrape directly from the dashboard**. Navigate to the **Scrapers** tab, click **Create new project**, and select a target from the available options. You can then easily use the web interface to build, make requests, and return results.
 - **Get authentication credentials**. If you want to integrate the API into your code, go to the **API Authentication** tab. Here you'll find the automatically generated username, password, or the basic authentication token. You can use them as authentication methods inside your script. Not sure where to start? See the [examples below](#amazon-scraping-by-target).
 
@@ -72,9 +72,9 @@ Retrieve Amazon listings by supplying a full Amazon URL.
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon.py > amazon.py`|
-| PHP      | [php/amazon.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon.php > amazon.php`|
-| Node.js  | [nodejs/amazon.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon.js > amazon.js`|
+| Python   | [python/amazon.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon.py > amazon.py`|
+| PHP      | [php/amazon.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon.php > amazon.php`|
+| Node.js  | [nodejs/amazon.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon.js > amazon.js`|
 
 #### Response example
 ```
@@ -460,9 +460,9 @@ Retrieve Amazon search results by providing a query and a list of parameters.
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon_search.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon_search.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon_search.py > amazon_search.py`|
-| PHP      | [php/amazon_search.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon_search.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon_search.php > amazon_search.php`|
-| Node.js  | [nodejs/amazon_search.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon_search.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon_search.js > amazon_search.js`|
+| Python   | [python/amazon_search.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon_search.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon_search.py > amazon_search.py`|
+| PHP      | [php/amazon_search.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon_search.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon_search.php > amazon_search.php`|
+| Node.js  | [nodejs/amazon_search.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon_search.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon_search.js > amazon_search.js`|
 
 ### Amazon product scraping `amazon_product`
 Retrieve Amazon listings by supplying Amazon product ID (ASIN). 
@@ -484,9 +484,9 @@ Retrieve Amazon listings by supplying Amazon product ID (ASIN).
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon_product.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon_product.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon_product.py > amazon_product.py`|
-| PHP      | [php/amazon_product.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon_product.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon_product.php > amazon_product.php`|
-| Node.js  | [nodejs/amazon_product.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon_product.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon_product.js > amazon_product.js`|
+| Python   | [python/amazon_product.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon_product.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon_product.py > amazon_product.py`|
+| PHP      | [php/amazon_product.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon_product.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon_product.php > amazon_product.php`|
+| Node.js  | [nodejs/amazon_product.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon_product.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon_product.js > amazon_product.js`|
 
 ### Amazon product pricing scraping `amazon_pricing`
 Retrieve Amazon pricing results by supplying Amazon product ID (ASIN). The response will list all sellers of the same product and their prices.
@@ -508,9 +508,9 @@ Retrieve Amazon pricing results by supplying Amazon product ID (ASIN). The respo
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon_pricing.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon_pricing.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon_pricing.py > amazon_pricing.py`|
-| PHP      | [php/amazon_pricing.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon_pricing.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon_pricing.php > amazon_pricing.php`|
-| Node.js  | [nodejs/amazon_pricing.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon_pricing.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon_pricing.js > amazon_pricing.js`|
+| Python   | [python/amazon_pricing.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon_pricing.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon_pricing.py > amazon_pricing.py`|
+| PHP      | [php/amazon_pricing.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon_pricing.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon_pricing.php > amazon_pricing.php`|
+| Node.js  | [nodejs/amazon_pricing.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon_pricing.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon_pricing.js > amazon_pricing.js`|
 
 ### Amazon product reviews scraping `amazon_reviews`
 Retrieve Amazon reviews by supplying Amazon product ID (ASIN).
@@ -532,9 +532,9 @@ Retrieve Amazon reviews by supplying Amazon product ID (ASIN).
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon_reviews.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon_reviews.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon_reviews.py > amazon_reviews.py`|
-| PHP      | [php/amazon_reviews.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon_reviews.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon_reviews.php > amazon_reviews.php`|
-| Node.js  | [nodejs/amazon_reviews.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon_reviews.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon_reviews.js > amazon_reviews.js`|
+| Python   | [python/amazon_reviews.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon_reviews.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon_reviews.py > amazon_reviews.py`|
+| PHP      | [php/amazon_reviews.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon_reviews.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon_reviews.php > amazon_reviews.php`|
+| Node.js  | [nodejs/amazon_reviews.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon_reviews.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon_reviews.js > amazon_reviews.js`|
 
 ### Amazon product questions & answers scraping `amazon_questions`
 Retrieve Amazon questions and answers by supplying Amazon product ID (ASIN) using the query parameter.
@@ -555,9 +555,9 @@ Retrieve Amazon questions and answers by supplying Amazon product ID (ASIN) usin
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon_questions.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon_questions.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon_questions.py > amazon_questions.py`|
-| PHP      | [php/amazon_questions.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon_questions.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon_questions.php > amazon_questions.php`|
-| Node.js  | [nodejs/amazon_questions.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon_questions.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon_questions.js > amazon_questions.js`|
+| Python   | [python/amazon_questions.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon_questions.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon_questions.py > amazon_questions.py`|
+| PHP      | [php/amazon_questions.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon_questions.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon_questions.php > amazon_questions.php`|
+| Node.js  | [nodejs/amazon_questions.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon_questions.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon_questions.js > amazon_questions.js`|
 
 ### Amazon product best sellers listing scraping `amazon_bestsellers`
 Retrieve Amazon best-seller listings by supplying the category name to the query parameter.
@@ -581,9 +581,9 @@ Retrieve Amazon best-seller listings by supplying the category name to the query
 #### Examples
 | Language | File                             | Download  |
 |:---------|:---------------------------------|:----------|
-| Python   | [python/amazon_bestsellers.py](https://github.com/Smartproxy/Amazon-scraper/blob/main/python/amazon_bestsellers.py)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/python/amazon_bestsellers.py > amazon_bestsellers.py`|
-| PHP      | [php/amazon_bestsellers.php](https://github.com/Smartproxy/Amazon-scraper/blob/main/php/amazon_bestsellers.php)    | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/php/amazon_bestsellers.php > amazon_bestsellers.php`|
-| Node.js  | [nodejs/amazon_bestsellers.js](https://github.com/Smartproxy/Amazon-scraper/blob/main/nodejs/amazon_bestsellers.js)  | `curl https://raw.githubusercontent.com/Smartproxy/Amazon-scraper/main/nodejs/amazon_bestsellers.js > amazon_bestsellers.js`|
+| Python   | [python/amazon_bestsellers.py](https://github.com/Decodo/Amazon-scraper/blob/main/python/amazon_bestsellers.py)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/python/amazon_bestsellers.py > amazon_bestsellers.py`|
+| PHP      | [php/amazon_bestsellers.php](https://github.com/Decodo/Amazon-scraper/blob/main/php/amazon_bestsellers.php)    | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/php/amazon_bestsellers.php > amazon_bestsellers.php`|
+| Node.js  | [nodejs/amazon_bestsellers.js](https://github.com/Decodo/Amazon-scraper/blob/main/nodejs/amazon_bestsellers.js)  | `curl https://raw.githubusercontent.com/Decodo/Amazon-scraper/main/nodejs/amazon_bestsellers.js > amazon_bestsellers.js`|
 
 ## Response codes
 ### HTTP response codes
@@ -595,7 +595,7 @@ An HTTP response status code indicates whether the request has been successfully
 |**204** | No content   | The job wasn't completed yet. | Wait a few seconds before trying again.     |
 |**400** | Bad request  | Bad structure of the request. | Check your request again and ensure its format is correct. |
 |**401** | Unauthorized | Incorrect login credentials or missing authorization. | Check your provided credentials for authorization. |
-|**403** | Forbidden    | Your account doesn't have access to this resource. | Ensure that the target is supported and isn't on the [blocked target list](#https://smartproxy.com/faq/general/do-you-have-any-blocked-sites).|
+|**403** | Forbidden    | Your account doesn't have access to this resource. | Ensure that the target is supported and isn't on the [blocked target list](#https://Decodo.com/faq/general/do-you-have-any-blocked-sites).|
 |**404** | Not found    | Your target wasn't found. | Check if the URL you entered is correct. |
 |**429** | Too many requests | Exceeded subscription rate limit. | Make sure you still have at least one request left. Wait a couple of minutes and try again. If you're encountering the error often – [chat with us](#https://direct.lc.chat/12092754/) to see if your rate limit can be increased. |
 |**500** | Internal server error | Service unavailable, possibly due to internal issues. | Wait a couple of minutes and send another request. [Contact us](#https://direct.lc.chat/12092754/) for more information. |
@@ -616,4 +616,4 @@ You can find these response codes in the JSON response as `parse_status_code` an
 | **12009**  |Error    | Target not found. |Make sure the parameters you passed are correct and supported.|
 
 ## License
-All code is released under the [MIT License](https://github.com/Smartproxy/Smartproxy/blob/master/LICENSE).
+All code is released under the [MIT License](https://github.com/Decodo/Decodo/blob/master/LICENSE).
