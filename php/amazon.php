@@ -1,5 +1,5 @@
 <?php
-$url = "https://scraper-api.smartproxy.com/v2/scrape";
+$url = "https://scraper-api.decodo.com/v2/scrape";
 
 $payload = json_encode([
     "target" => "amazon",
